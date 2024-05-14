@@ -23,7 +23,7 @@ const Schema = mongoose.Schema;
 const ItemSchema = new Schema({
   name: String,
 });
-
+console.log("hii")
 const ItemModel = mongoose.model('Item', ItemSchema);
 
 // Define a sample API endpoint
