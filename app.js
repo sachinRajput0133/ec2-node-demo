@@ -38,7 +38,7 @@ app.get('/api/items', async (req, res) => {
   }
 });
 
-// Start the Express server
+// Start the Express server 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
